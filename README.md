@@ -16,12 +16,11 @@ Add a users model/table
     - name
     - email
     - password digest
-    - password salt
     - remember_token
 
 Add Associations and Validations to your User Model
   - What is a user's relationship with posts and comments?
-  - What validations will you need for a good authentication system
+  - What validations will you need?
 
 Add Rspec tests  
   - Make sure all of your validations are tested with rspec
