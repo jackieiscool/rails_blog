@@ -1,0 +1,12 @@
+<h2><%= @post.title %></h2>
+
+<p><%= @post.body %></p>
+
+<h3>Comments</h3>
+<% @post.comments.each do |comment| %>
+  <p><%= comment.body %></p>
+<% end %>
+
+<h5>Leave Comment</h5>
+
+<%= render 'comment_form' %>
